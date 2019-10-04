@@ -22,14 +22,11 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewNumber.setAdapter(numberAdapter);
 
         numbers = new int[100];
-
         int i = 0;
         do {
             numbers[i] = i + 1;
             i += 1;
         } while (i < 100);
         numberAdapter.numbers = numbers;
-
-
     }
 }
